@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const picknpay = require('./routes/api/picknpay');
 const game = require('./routes/api/game');
+const checkers = require('./routes/api/checkers');
 const port = process.env.PORT || 5000;
 
 
@@ -18,6 +19,7 @@ app.get('/',(req,res)=>{
 
 app.use('/api/picknpay',picknpay);
 app.use('/api/game',game);
+app.use('/api/checkers',checkers);
 
 app.listen(port,()=>{
 
