@@ -7,7 +7,7 @@ let spiriturl ='https://www.game.co.za/game-za/en/All-Game-Categories/Liquor/Spi
 let wineurl ='https://www.game.co.za/game-za/en/All-Game-Categories/Liquor/Wine/c/G0087?q=%3Arelevance&page=';
 
 
-app.get('/wine/:id',(req,res)=>{
+router.get('/wine/:id',(req,res)=>{
 
     var items =[];
 
@@ -41,7 +41,7 @@ app.get('/wine/:id',(req,res)=>{
 
 
 
-app.get('/spirit/:id',(req,res)=>{
+router.get('/spirit/:id',(req,res)=>{
 
     var items =[];
 
@@ -74,7 +74,7 @@ app.get('/spirit/:id',(req,res)=>{
 });
 
 
-app.get('/beer/:id',(req,res)=>{
+router.get('/beer/:id',(req,res)=>{
 
     var items =[];
 
