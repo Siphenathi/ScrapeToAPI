@@ -1,0 +1,8 @@
+Hey bru i hope you doing good, i would advise u not to push packages (node_modules) to github.
+its not considered as a good practise, they just consume a space for nothing cause u can go npm install whenever u cloned ur project.
+That is y it will take you some time to push you project to github with packages.
+=====> Solution <=====
+use gitignore it will help prevent packages from being pushed to github.
+I'm open to discussions especially the one with code.
+If u feel like u have a different opinion u can share it here.
+or 0780329830 (whatsapp)== spantshwa.lukho@gmail.com
